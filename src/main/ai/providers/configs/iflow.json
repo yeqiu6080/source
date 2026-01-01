@@ -1,0 +1,18 @@
+{
+  "id": "iflow",
+  "displayName": "Iflow",
+  "baseUrl": "https://apis.iflow.cn/v1",
+  "apiKeyTemplate": "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "apiKeyUrl": "https://iflow.cn/?open=setting",
+  "sdkMode": "openai",
+  "priority": 10,
+  "models": [
+    {
+      "id": "qwen3-coder-plus",
+      "name": "Qwen3-Coder-Plus",
+      "tooltip": "Qwen3-Coder-480B-A35B-Instruct - 480B MoE 模型，原生支持 256K token 上下文，可扩展到 1M，Agentic Coding 能力媲美 Claude Sonnet4",
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 65536
+    }
+  ]
+}

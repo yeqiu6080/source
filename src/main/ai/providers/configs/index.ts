@@ -14,6 +14,7 @@ import dashscopeConfig from './dashscope.json';
 import baiduConfig from './baidu.json';
 import geminiConfig from './gemini.json';
 import siliconflowConfig from './siliconflow.json';
+import iflowConfig from './iflow.json';
 
 // 所有供应商配置列表
 export const providerConfigs: ProviderConfig[] = [
@@ -26,6 +27,7 @@ export const providerConfigs: ProviderConfig[] = [
   baiduConfig as ProviderConfig,
   geminiConfig as ProviderConfig,
   siliconflowConfig as ProviderConfig,
+  iflowConfig as ProviderConfig,
 ].sort((a, b) => (a.priority || 99) - (b.priority || 99));
 
 // 根据 ID 获取供应商配置
